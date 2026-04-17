@@ -86,6 +86,52 @@
             color: #28a745;
             margin-top: 4px;
         }
+        .url-section {
+            margin-top: 32px;
+        }
+        .url-section h2 {
+            font-size: 20px;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+        }
+        .url-table-wrapper {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+            overflow: hidden;
+        }
+        .url-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .url-table thead th {
+            background: #f8f9fa;
+            padding: 12px 16px;
+            text-align: left;
+            font-size: 13px;
+            font-weight: 600;
+            color: #555;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .url-table tbody td {
+            padding: 10px 16px;
+            font-size: 14px;
+            color: #333;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .url-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+        .url-table tbody tr:hover {
+            background: #f8f9fb;
+        }
+        .url-table a {
+            color: #0066ff;
+            text-decoration: none;
+        }
+        .url-table a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -119,6 +165,221 @@
                 <h3 id="runningTitle">Running</h3>
                 <div class="value" id="runningValue">46</div>
                 <div class="sub" id="runningSub">3 queued</div>
+            </div>
+        </div>
+        <div class="url-section" id="urlSection">
+            <h2 id="urlSectionTitle">URLs (50)</h2>
+            <div class="url-table-wrapper" id="urlTableWrapper">
+                <table class="url-table" id="urlTable">
+                    <thead id="urlTableHead">
+                        <tr>
+                            <th id="urlColIndex">#</th>
+                            <th id="urlColUrl">URL</th>
+                        </tr>
+                    </thead>
+                    <tbody id="urlTableBody">
+                        <tr id="urlRow1">
+                            <td id="urlIndex1">1</td>
+                            <td><a href="https://www.google.com" id="urlLink1" target="_blank">www.google.com</a></td>
+                        </tr>
+                        <tr id="urlRow2">
+                            <td id="urlIndex2">2</td>
+                            <td><a href="https://www.google.com/forms" id="urlLink2" target="_blank">www.google.com/forms</a></td>
+                        </tr>
+                        <tr id="urlRow3">
+                            <td id="urlIndex3">3</td>
+                            <td><a href="https://www.google.com/forms/about" id="urlLink3" target="_blank">www.google.com/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow4">
+                            <td id="urlIndex4">4</td>
+                            <td><a href="https://www.google.com/intl" id="urlLink4" target="_blank">www.google.com/intl</a></td>
+                        </tr>
+                        <tr id="urlRow5">
+                            <td id="urlIndex5">5</td>
+                            <td><a href="https://www.google.com/intl/af" id="urlLink5" target="_blank">www.google.com/intl/af</a></td>
+                        </tr>
+                        <tr id="urlRow6">
+                            <td id="urlIndex6">6</td>
+                            <td><a href="https://www.google.com/intl/af/forms" id="urlLink6" target="_blank">www.google.com/intl/af/forms</a></td>
+                        </tr>
+                        <tr id="urlRow7">
+                            <td id="urlIndex7">7</td>
+                            <td><a href="https://www.google.com/intl/af/forms/about" id="urlLink7" target="_blank">www.google.com/intl/af/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow8">
+                            <td id="urlIndex8">8</td>
+                            <td><a href="https://www.google.com/intl/am" id="urlLink8" target="_blank">www.google.com/intl/am</a></td>
+                        </tr>
+                        <tr id="urlRow9">
+                            <td id="urlIndex9">9</td>
+                            <td><a href="https://www.google.com/intl/am/forms" id="urlLink9" target="_blank">www.google.com/intl/am/forms</a></td>
+                        </tr>
+                        <tr id="urlRow10">
+                            <td id="urlIndex10">10</td>
+                            <td><a href="https://www.google.com/intl/am/forms/about" id="urlLink10" target="_blank">www.google.com/intl/am/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow11">
+                            <td id="urlIndex11">11</td>
+                            <td><a href="https://www.google.com/intl/ar" id="urlLink11" target="_blank">www.google.com/intl/ar</a></td>
+                        </tr>
+                        <tr id="urlRow12">
+                            <td id="urlIndex12">12</td>
+                            <td><a href="https://www.google.com/intl/ar/forms" id="urlLink12" target="_blank">www.google.com/intl/ar/forms</a></td>
+                        </tr>
+                        <tr id="urlRow13">
+                            <td id="urlIndex13">13</td>
+                            <td><a href="https://www.google.com/intl/ar/forms/about" id="urlLink13" target="_blank">www.google.com/intl/ar/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow14">
+                            <td id="urlIndex14">14</td>
+                            <td><a href="https://www.google.com/intl/bg" id="urlLink14" target="_blank">www.google.com/intl/bg</a></td>
+                        </tr>
+                        <tr id="urlRow15">
+                            <td id="urlIndex15">15</td>
+                            <td><a href="https://www.google.com/intl/bg/forms" id="urlLink15" target="_blank">www.google.com/intl/bg/forms</a></td>
+                        </tr>
+                        <tr id="urlRow16">
+                            <td id="urlIndex16">16</td>
+                            <td><a href="https://www.google.com/intl/bg/forms/about" id="urlLink16" target="_blank">www.google.com/intl/bg/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow17">
+                            <td id="urlIndex17">17</td>
+                            <td><a href="https://www.google.com/intl/bn" id="urlLink17" target="_blank">www.google.com/intl/bn</a></td>
+                        </tr>
+                        <tr id="urlRow18">
+                            <td id="urlIndex18">18</td>
+                            <td><a href="https://www.google.com/intl/bn/forms" id="urlLink18" target="_blank">www.google.com/intl/bn/forms</a></td>
+                        </tr>
+                        <tr id="urlRow19">
+                            <td id="urlIndex19">19</td>
+                            <td><a href="https://www.google.com/intl/bn/forms/about" id="urlLink19" target="_blank">www.google.com/intl/bn/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow20">
+                            <td id="urlIndex20">20</td>
+                            <td><a href="https://www.google.com/intl/ca" id="urlLink20" target="_blank">www.google.com/intl/ca</a></td>
+                        </tr>
+                        <tr id="urlRow21">
+                            <td id="urlIndex21">21</td>
+                            <td><a href="https://www.google.com/intl/ca/forms" id="urlLink21" target="_blank">www.google.com/intl/ca/forms</a></td>
+                        </tr>
+                        <tr id="urlRow22">
+                            <td id="urlIndex22">22</td>
+                            <td><a href="https://www.google.com/intl/ca/forms/about" id="urlLink22" target="_blank">www.google.com/intl/ca/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow23">
+                            <td id="urlIndex23">23</td>
+                            <td><a href="https://www.google.com/intl/cs" id="urlLink23" target="_blank">www.google.com/intl/cs</a></td>
+                        </tr>
+                        <tr id="urlRow24">
+                            <td id="urlIndex24">24</td>
+                            <td><a href="https://www.google.com/intl/cs/forms" id="urlLink24" target="_blank">www.google.com/intl/cs/forms</a></td>
+                        </tr>
+                        <tr id="urlRow25">
+                            <td id="urlIndex25">25</td>
+                            <td><a href="https://www.google.com/intl/cs/forms/about" id="urlLink25" target="_blank">www.google.com/intl/cs/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow26">
+                            <td id="urlIndex26">26</td>
+                            <td><a href="https://www.google.com/intl/da" id="urlLink26" target="_blank">www.google.com/intl/da</a></td>
+                        </tr>
+                        <tr id="urlRow27">
+                            <td id="urlIndex27">27</td>
+                            <td><a href="https://www.google.com/intl/da/forms" id="urlLink27" target="_blank">www.google.com/intl/da/forms</a></td>
+                        </tr>
+                        <tr id="urlRow28">
+                            <td id="urlIndex28">28</td>
+                            <td><a href="https://www.google.com/intl/da/forms/about" id="urlLink28" target="_blank">www.google.com/intl/da/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow29">
+                            <td id="urlIndex29">29</td>
+                            <td><a href="https://www.google.com/intl/de" id="urlLink29" target="_blank">www.google.com/intl/de</a></td>
+                        </tr>
+                        <tr id="urlRow30">
+                            <td id="urlIndex30">30</td>
+                            <td><a href="https://www.google.com/intl/de/forms" id="urlLink30" target="_blank">www.google.com/intl/de/forms</a></td>
+                        </tr>
+                        <tr id="urlRow31">
+                            <td id="urlIndex31">31</td>
+                            <td><a href="https://www.google.com/intl/de/forms/about" id="urlLink31" target="_blank">www.google.com/intl/de/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow32">
+                            <td id="urlIndex32">32</td>
+                            <td><a href="https://www.google.com/intl/el" id="urlLink32" target="_blank">www.google.com/intl/el</a></td>
+                        </tr>
+                        <tr id="urlRow33">
+                            <td id="urlIndex33">33</td>
+                            <td><a href="https://www.google.com/intl/el/forms" id="urlLink33" target="_blank">www.google.com/intl/el/forms</a></td>
+                        </tr>
+                        <tr id="urlRow34">
+                            <td id="urlIndex34">34</td>
+                            <td><a href="https://www.google.com/intl/el/forms/about" id="urlLink34" target="_blank">www.google.com/intl/el/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow35">
+                            <td id="urlIndex35">35</td>
+                            <td><a href="https://www.google.com/intl/en-GB" id="urlLink35" target="_blank">www.google.com/intl/en-GB</a></td>
+                        </tr>
+                        <tr id="urlRow36">
+                            <td id="urlIndex36">36</td>
+                            <td><a href="https://www.google.com/intl/en-GB/forms" id="urlLink36" target="_blank">www.google.com/intl/en-GB/forms</a></td>
+                        </tr>
+                        <tr id="urlRow37">
+                            <td id="urlIndex37">37</td>
+                            <td><a href="https://www.google.com/intl/en-GB/forms/about" id="urlLink37" target="_blank">www.google.com/intl/en-GB/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow38">
+                            <td id="urlIndex38">38</td>
+                            <td><a href="https://www.google.com/intl/es-419" id="urlLink38" target="_blank">www.google.com/intl/es-419</a></td>
+                        </tr>
+                        <tr id="urlRow39">
+                            <td id="urlIndex39">39</td>
+                            <td><a href="https://www.google.com/intl/es-419/forms" id="urlLink39" target="_blank">www.google.com/intl/es-419/forms</a></td>
+                        </tr>
+                        <tr id="urlRow40">
+                            <td id="urlIndex40">40</td>
+                            <td><a href="https://www.google.com/intl/es-419/forms/about" id="urlLink40" target="_blank">www.google.com/intl/es-419/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow41">
+                            <td id="urlIndex41">41</td>
+                            <td><a href="https://www.google.com/intl/es" id="urlLink41" target="_blank">www.google.com/intl/es</a></td>
+                        </tr>
+                        <tr id="urlRow42">
+                            <td id="urlIndex42">42</td>
+                            <td><a href="https://www.google.com/intl/es/forms" id="urlLink42" target="_blank">www.google.com/intl/es/forms</a></td>
+                        </tr>
+                        <tr id="urlRow43">
+                            <td id="urlIndex43">43</td>
+                            <td><a href="https://www.google.com/intl/es/forms/about" id="urlLink43" target="_blank">www.google.com/intl/es/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow44">
+                            <td id="urlIndex44">44</td>
+                            <td><a href="https://www.google.com/intl/et" id="urlLink44" target="_blank">www.google.com/intl/et</a></td>
+                        </tr>
+                        <tr id="urlRow45">
+                            <td id="urlIndex45">45</td>
+                            <td><a href="https://www.google.com/intl/et/forms" id="urlLink45" target="_blank">www.google.com/intl/et/forms</a></td>
+                        </tr>
+                        <tr id="urlRow46">
+                            <td id="urlIndex46">46</td>
+                            <td><a href="https://www.google.com/intl/et/forms/about" id="urlLink46" target="_blank">www.google.com/intl/et/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow47">
+                            <td id="urlIndex47">47</td>
+                            <td><a href="https://www.google.com/intl/eu" id="urlLink47" target="_blank">www.google.com/intl/eu</a></td>
+                        </tr>
+                        <tr id="urlRow48">
+                            <td id="urlIndex48">48</td>
+                            <td><a href="https://www.google.com/intl/eu/forms" id="urlLink48" target="_blank">www.google.com/intl/eu/forms</a></td>
+                        </tr>
+                        <tr id="urlRow49">
+                            <td id="urlIndex49">49</td>
+                            <td><a href="https://www.google.com/intl/eu/forms/about" id="urlLink49" target="_blank">www.google.com/intl/eu/forms/about</a></td>
+                        </tr>
+                        <tr id="urlRow50">
+                            <td id="urlIndex50">50</td>
+                            <td><a href="https://www.google.com/intl/fa" id="urlLink50" target="_blank">www.google.com/intl/fa</a></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
